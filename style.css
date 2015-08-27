@@ -1,0 +1,94 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#hatbox {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    margin-left: -250px;
+    margin-top: -250px;   
+    text-align: center;
+}
+
+
+#hattext {
+    line-height: 1.2em;
+    position: absolute;
+    
+    top: 110px;
+    left: 50%;
+    margin-left: -200px;
+    text-align: center;
+    width: 400px;
+    
+    font-family: "Times New Roman";
+    font-weight: bolder;
+    color: #90653e;
+    font-size: 48px;
+
+    -ms-transform: scale(0.9,1); /* IE 9 */
+    -webkit-transform: scale(0.9,1); /* Safari */
+    transform: scale(0.9,1);
+}
+
+#hattext.gold {
+    color: #90653e;
+}
+#hattext.white {
+    color: white;
+}
+#hattext.black {
+    color: black;
+}
+
+#whateveritis {
+    border: 1px solid rgba(0,0,0,0);
+    text-transform: uppercase;
+}
+#whateveritis:hover {
+    border: 1px dotted blue;
+}
+
+#hat {
+    position: relative;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+#options {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    margin-top: 250px;
+}
+
+#options #sharebutton {
+    border: 1px solid blue;
+    background: white;
+    font-size: 14pt;
+    font-family: "Times New Roman";
+    margin-top: 1em;
+}
+
+#credit {
+    font-style: italic;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    /*position: absolute;
+    text-align: right;
+    bottom: 1em;
+    right: 1em;*/
+}
+#credit a {
+    font-style: normal;
+    text-decoration: underline;
+    color: blue;
+}
